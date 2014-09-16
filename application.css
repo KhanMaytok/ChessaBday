@@ -1,0 +1,108 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background: url("http://2.bp.blogspot.com/-xN5__stOjls/UwlRk30gMGI/AAAAAAAAFwk/3DsOLeIOVr8/s640/mini+lemon+pancakes3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: #fff;
+  text-align: center;
+
+}
+
+.lead {
+  border: 3px solid white;
+  font-family: 'Lobster Two', cursive;
+  font-size: 30px;
+  padding: 50px 50px;
+  margin-left: 185px;
+  margin-top: -200px;
+  text-align: center;
+  width: 250px;
+}
+
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+  vertical-align: middle;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bar {
+  background: white;
+  margin: 0 auto;
+  opacity: 0.9;
+  padding: 12px 0;
+  text-align: center;
+  width: 100%;
+  z-index: 100;
+}
+
+.container {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1em;
+  color: black;
+  background: #ffffff;
+  opacity: 0.7;
+
+}
+
+#pic {
+  opacity: 1.0;
+  border-radius: 50%;
+  display: block;
+  height: 10em;
+  margin: 0 auto;
+  padding: 0;
+  box-shadow: 10px #ffffff;
+}
+
+.text-container {
+  margin: 20px 150px;
+}
+
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
